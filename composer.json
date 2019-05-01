@@ -1,5 +1,6 @@
 {
     "name": "community-engineering/language-pt_br",
+    "version": "0.0.1",
     "type": "magento2-language",
     "description": "pt_BR language package.",
     "license": [
@@ -14,7 +15,7 @@
     },
     "autoload": {
         "files": [
-          "registration.php"
+            "registration.php"
         ]
     }
 }
