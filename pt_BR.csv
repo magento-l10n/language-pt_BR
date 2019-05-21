@@ -1495,7 +1495,6 @@ Message:,Mensagem:
 """option_id"" and ""parent_id"" values should be specified","Os valores ""option_id"" e ""parent_id"" precisam ser especificados"
 """sku"" value should be specified","""sku"" precisa ser especificado"
 "Unique constraint violation found","Violação de chave única encontrada"
-ID,Id.
 Always,Sempre
 "After number of attempts to login","Após o número de tentativas de login"
 "Provided form does not exist","Formulário fornecido não existe"
@@ -2245,6 +2244,8 @@ text,texto
 from,de
 to,para
 "The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.","O atributo não pode ser salvo devido a um erro. Verifique suas informações e tente novamente. Se o erro persistir, por favor, tente novamente mais tarde."
+"The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.","O atributo não pôde ser validado devido a um erro. Verifique suas informações e tente novamente. Se o erro persistir, por favor tente novamente mais tarde."
+"Tier prices data should be array, but actually other type is received","Faixas de preço devem ser to tipo array, porém outro tipo foi recebido"
 "Price indexer ""%1"" must implement %2 or %3","Indexador de preços ""%1"" deve implementar %2 ou %3"
 "You added product %1 to the <a href=""%2"">comparison list</a>.","Você adicionou o produto %1 para a <a href=""%2"">lista de comparação</a>."
 "Maximum %1 characters","Máximo %1 caracteres"
@@ -2256,12 +2257,34 @@ remaining,restantes
 "Remember Category Pagination","Lembrar paginação de Categoria"
 "Changing may affect SEO and cache storage consumption.","Alterar pode afetar o consumo de SEO e cache de armazenamento."
 Quality,Qualidade
+"Jpeg quality for resized images 1-100%.","Qualidade Jpeg para imagens redimensionadas 1-100%."
 Cost,Custo
+"The ""%1"" attribute is required. Enter and try again.","O atributo ""%1"" é obrigatório. Informe-o e tente novamente."
+"Attributes were missing and must be specified.","Atributos estão faltando e devem ser especificados."
+"The value of Admin must be unique. (%1)","O valor do Admin deve ser único. (%1)"
+"The product was unable to be saved. Please try again.","O produto não pôde ser salvo. Por favor, tente novamente."
+"The value of the ""%1"" attribute isn't unique. Set a unique value and try again.","O valor do atributo ""%1"" não é único. Defina um valor único e tente novamente."
 "The category doesn't contain the specified product.","A categoria não contém o produto especificado."
+"The %1 value wasn't found in the algorithms.","O valor %1 não foi encontrado nos algoritmos."
+"The filters are invalid. Set them in an array and try again.","Os filtros são inválidos. Defina-os em um array e tente novamente."
 "The product wasn't registered.","Produto não foi registrado."
+"The store wasn't registered. Verify the store and try again.","Loja não encontrada. Verifique-a e tente novamente."
+"The ""%1"" attribute value is empty. Set the attribute and try again.","O valor do atributo ""%1"" está vazio. Informe o atributo e tente novamente."
+"The attribute set couldn't be created because it's based on a non-product attribute set.","O grupo de atributo não pôde ser criado porque ele foi baseado em um conjunto de atributos que não é de produto."
+"The attribute set couldn't be created because it's based on a non-existing attribute set.","O grupo de atributo não pôde ser criado porque ele foi baseado em um conjunto de atributos inexistente."
+"The image content is invalid. Verify the content and try again.","O conteúdo da imagem é inválido. Verifique-o e tente novamente."
 "The product can't be saved.","O produto não pode ser salvo."
+"The new media gallery entry failed to save.","Erro ao salvar o novo valor da galeria de imagens."
+"No image with the provided ID was found. Verify the ID and try again.","Nenhuma imagem foi encontrada para o ID informado. Verifique-o e tente novamente."
+"The product doesn't exist. Verify and try again.","O produto não existe. Verifique e tente novamente."
+"The image doesn't exist. Verify and try again.","A imagem não existe. Verifique-a e tente novamente."
+"The image doesn't exist.","A imagem não existe."
+"The image type for the file is invalid. Enter the correct image type and try again.","A extensão do arquivo de imagem é inválido. Insira uma imagem com uma extensão válida e tente novamente."
 "The ""%1"" file couldn't be moved.","O arquivo ""%1"" não pôde ser movido."
+"The ProductSku is empty. Set the ProductSku and try again.","O SKU do produto está vazio. Informe um SKU e tente novamente."
 "The custom option couldn't be removed.","A opção personalizada não pôde ser removida."
+"The product's required option(s) weren't entered. Make sure the options are entered and try again.","A(s) opção(ões) obrigatória(s) do produto não foram informadas. Verifique este(s) dado(s) e tente novamente."
+"The file options format is invalid. Use a correct format and try again.","A extensão do arquivo de opções informado é inválido. Informe uma extensão correta e tente novamente."
 "The file ""%1"" is empty. Select another file and try again.","O arquivo ""%1"" está vazio. Selecione outro arquivo e tente novamente."
 "The validation failed. Make sure the required options are entered and the file is uploaded, then try again.","A validação falhou. Certifique-se de que as opções necessárias são inseridas e o arquivo é enviado, e então tente novamente."
 "The file was too big and couldn't be uploaded. Use a file smaller than %1 MBs and try to upload again.","O arquivo foi muito grande e não pôde ser carregado. Use um arquivo menor que %1 MBs e tente fazer o upload novamente."
@@ -2296,6 +2319,16 @@ Cost,Custo
 "Default Layouts","Layouts padrões"
 "Default Product Layout","Layout Padrão do Produto"
 "Default Category Layout","Layout Padrão da Categoria"
+"
+                    Time in seconds between the widget updates.
+                    <br/>If not set, equals to 86400 seconds (24 hours). To update widget instantly, go to Cache Management and clear Blocks HTML Output cache.
+                    <br/>Widget will not show products that begin to match the specified conditions until cache is refreshed.
+                ","
+                    Tempo em segundos entre as atualizações do widget.
+                    <br/>Se não for definido, é igual a 86400 segundos (24 horas). Para atualizar o widget instantaneamente, acesse o Gerenciamento de Cache e limpe o cache de Blocos de Saída HTML.
+                    <br/>O widget não exibirá produtos que comecem a corresponder as condições especificadas até que o cache seja atualizado.                "
+"Text Editor input type requires WYSIWYG to be enabled in Stores > Configuration > Content Management.","O tipo do campo Editor de Texto requer que o editor WYSIWYG seja ativado em Lojas > Configuração > Gerenciamento de Conteúdo."
+"Attribute code ""%1"" is invalid. Please use only letters (a-z or A-Z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","O código de atributo ""%1"" é inválido. Por favor use somente letras (a-z), números (0-9) ou underlines(_) neste campo, e o primeiro caractere deve ser uma letra."
 "Edit Event","Editar o evento"
 "Add Event","Adicionar Evento"
 Events,Eventos
@@ -2346,6 +2379,7 @@ Scroll,Rolagem
 "Block Custom Width","Largura Personalizada do Bloco"
 "If empty, we'll automatically set the width value in pixels.","Se estiver vazio, será definido automaticamente o valor de largura em pixels."
 "Catalog Events Carousel Default Template","Template Pré-definido de Carrossel para Eventos de Catálogo"
+ID,Id.
 "Category ID","ID da categoria"
 Start,Ínicio
 End,Fim
@@ -7861,6 +7895,7 @@ Registration,Registro
 "You can reward up to %s invitee purchase(s).","Você pode ser recompensado por até %s compras de convidados."
 "Submit a review now and earn %1 after the review is approved.","Escreva uma revisão agora e ganhe %1 depois que a revisão for aprovada."
 "You can reward up to %1 new reviews(s).","Você pode ser recompensado por até %1 novas revisões."
+"Earn %1 for purchases your invitees make.","Ganhe %1 pelas compras de seus convidados."
 Return,Devolução
 Returns,Devoluções
 "Create Returns","Criar devolução"
