@@ -2873,6 +2873,7 @@ Manually,Manualmente
 "A checkout agreement with the ""%1"" specified ID wasn't found. Verify the ID and try again.","Um acordo de checkout com o ""%1"" ID especificado não foi encontrado. Verifique o ID e tente novamente."
 "Preview mode doesn't allow submitting the order.","O modo de pré visualização não permite o envio de encomenda."
 "Preview Quote Lifetime (minutes)","Tempo de Vida da Pré-visualização do Orçamento (minutos)"
+"The order can't be submitted in preview mode.","O pedido não pode ser enviado no modo de pré-visualização."
 "Static Blocks","Blocos estáticos"
 "Add New Block","Adicionar novo bloco"
 "Delete Block","Excluir Bloco"
