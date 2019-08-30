@@ -3562,6 +3562,8 @@ test2,teste2
 "Web Section","Seção Web"
 "Store Email Addresses Section","Seção de Emails da Loja"
 "Email to a Friend","Enviar por Email à um Amigo"
+"The ""%1"" file doesn't exist.","O arquivo ""%1"" não existe."
+"The ""%1"" path doesn't exist. Verify and try again.","O caminho ""%1"" não existe. Verifique e tente novamente."
 "'The XML in file ""%1"" is invalid:' . ""\n%2\nVerify the XML and try again.""","'O XML no arquivo ""%1"" é inválido:'. ""\n%2\n Verifique o XML e tente novamente."""
 "Product with assigned super attributes should not have specified ""%1"" value","O produto com atributos super atribuídos não deve ter o valor ""%1"" especificado"
 "Add configurable attributes to the current Attribute Set (""%1"")","Adicionar atributos configuráveis para o conjunto de atributos atuais (""%1"")"
