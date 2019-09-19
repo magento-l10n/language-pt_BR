@@ -2902,7 +2902,6 @@ Modified,Modificado
 "Edit Block","Editar o Bloco"
 "New Block","Novo Bloco"
 Blocks,Blocos
-"Please correct the data sent.","Por favor corrija o dado enviado."
 "You saved the block.","Você salvou o bloco."
 "Something went wrong while saving the block.","Algo de errado ocorreu ao gravar o bloco."
 "The page has been deleted.","A página foi excluída."
@@ -7784,7 +7783,7 @@ Price:,Preço:
 "Allow Alert When Product Comes Back in Stock","Permitir Alerta Quando o Produto Regressa ao Stock"
 "Price Alert Email Template","Template de E-mail de Alerta de Preço"
 "Stock Alert Email Template","Template de E-mail de Alerta de Stock"
-"Alert Email Sender","Remetente de Email de Alerta"
+"Alert Email Sender","Remetente de E-mail de Alerta"
 "Product Alerts Run Settings","Definições de Execução de Alerta de Produtos"
 "Notify me when the price drops","Receber notificações de baixa de preço"
 "Notify me when this product is in stock","Me avise quando esse produto estiver disponível"
@@ -10596,6 +10595,7 @@ More,Mais
 more,mais
 less,menos
 "Please define a product data object.","Por favor, defina um objeto de dados de produto."
+Cross-sells,"Venda Cruzada"
 "Selected Only","Somente Selecionado"
 Shuffle,Embaralhar
 "Show Related Products","Mostrar produtos relacionados"
