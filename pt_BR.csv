@@ -10674,6 +10674,7 @@ Shuffle,Embaralhar
 "To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","Para aplicar desconto nos preços incluindo o imposto e aplicando o imposto após o desconto, defina Preços de Catalogo para ""Incluindo Impostos""."
 "Store(s) affected: ","Loja(s) afetada(s): "
 "Click on the link to <a href=""%1"">ignore this notification</a>","Clique no link para <a href=""%1"">ignorar esta notificação</a>"
+"Your current tax configuration may result in rounding errors. ","Aviso de configuração de impostos pode resultar em erros de arredondamento. "
 "customer group","grupo de clientes"
 product,produto
 "Excl. tax:","Excl. Imposto:"
