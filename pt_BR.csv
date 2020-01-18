@@ -10596,10 +10596,14 @@ More,Mais
 "equal to","igual a"
 more,mais
 less,menos
+"Product Price is %1 %2% of Matched Product(s) Price","Preço do produto é %1 %2% do preço do(s) produto(s) correspondente(s)"
 "Please define a product data object.","Por favor, defina um objeto de dados de produto."
 Cross-sells,"Venda Cruzada"
+"Model class name for attribute is invalid","Nome da classe modelo para o atributo é inválido"
+"This attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscores (_), and be sure the code begins with a letter.","O código do atributo é inválido. Por favor use apenas letras (a-z), números (0-9) ou sublinhado (_) neste campo. O primeiro carácter deve ser uma letra."
 "Selected Only","Somente Selecionado"
 Shuffle,Embaralhar
+"Maximum Number of Products in Related Products List","Número máximo de Produtos na Lista de Produtos Relacionados"
 "Show Related Products","Mostrar produtos relacionados"
 "Target Rule","Regra alvo"
 "Target Rule Index.","Índice de Regras de Alvo."
