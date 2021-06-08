@@ -1243,7 +1243,7 @@ Invoiced,Faturado
 Shipped,Enviado
 Refunded,Reembolsado
 Canceled,Cancelado
-"Regular Price","Preço Normal"
+"Regular Price",Preço
 "As low as","A partir de"
 "Buy %1 with %2 discount each","Comprar %1 com %2 de desconto"
 "Go back to product details","Voltar para detalhes do produto"
@@ -2986,7 +2986,10 @@ Configurations,Configurações
 "Bulk Images &amp; Price","Preço &amp; imagens em massa"
 "Select Attributes","Selecione Atributos"
 "Choose an Option...","Escolha uma Opção..."
+"The value of attribute """"%1"""" must be unique","O valor do atributo """"%1"""" deve ser único"
 "This attribute is used in configurable products.","Esse atributo é usado em produtos configuráveis."
+"The product is already attached.","O produto já foi atrelado."
+"The parent product doesn't have configurable product options.","O produto pai não contém opções de produto configuráveis."
 "Option with id ""%1"" not found","Opção com id ""%1"" não foi encontrada"
 "Option attribute ID is not specified.","Opção de atributo ID não especificado."
 "Option label is not specified.","Rótulo de opção não especificado."
@@ -2996,6 +2999,7 @@ Configurations,Configurações
 "Products ""%1"" and ""%2"" have the same set of attribute values.","Os produtos ""%1"" e %2 têm o mesmo conjunto de valores de atributo."
 "You can't add the item to shopping cart.","Você não pode adicionar o item ao carrinho de compras."
 "Some product variations fields are not valid.","Algumas variações de campos de produto não são válidas."
+"Contribution must have attributes specified. Enter attributes and try again.","A contribuição deve ter atributos especificados. Digite os atributos e tente novamente."
 "Choose Affected Attribute Set","Escolher Conjunto de Atributos Afetado"
 "Add configurable attributes to the current Attribute Set","Adicionar atributos configuráveis para o atributo atual Definir"
 Confirm,Confirmar
@@ -3070,6 +3074,7 @@ save,salvar
 "Please select attribute(s).","Por favor selecione atributo(s)."
 "Generate Products","Gerar produtos"
 "Configurable Product Image","Imagem de produto configurável"
+"As low as: ","A partir de: "
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Obrigado por nos contatar com seus comentários e perguntas. Em breve responderemos."
 "An error occurred while processing your form. Please try again later.","Houve um erro enquanto seu formulário era processado. Por favor, tente novamente mais tarde."
 "Write Us",Escreva-nos
