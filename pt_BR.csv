@@ -3404,6 +3404,7 @@ Female,Feminino
 "Not Specified","Não especificado"
 "Validator Exception","Exceção do validador"
 "Localized Exception","Exceção local (Localized Exception)"
+Street,Rua
 "NOT LOGGED IN","NÃO ESTÁ LOGADO"
 "Please enter the state/province.","Por favor digite o estado/província."
 "region is a required field.","região é um campo obrigatório."
@@ -3432,6 +3433,7 @@ Newsletters,Newsletter
 "You have no default billing address in your address book.","Você não tem endereço de cobrança padrão no seu catalogo de endereço."
 "Change Shipping Address","Altere seu endereço de entrega"
 "You have no default shipping address in your address book.","Você não tem endereço de envio padrão em seu catalogo de endereço."
+"Street Address: Line %1","Rua %1"
 "Street Address %1","Endereço %1"
 "It's a default billing address.","Este é um endereço de cobrança padrão."
 "Use as my default billing address","Usar como meu endereço padrão de cobrança"
