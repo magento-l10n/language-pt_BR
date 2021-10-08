@@ -7615,6 +7615,7 @@ Answers,Respostas
 "RMA Customer Comments","Comentários do Cliente RMA"
 "RMA Comment Email Recipient","Recebedor do E-mail do comentário RMA"
 "Enabled for RMA","Habilitado para RMA"
+"Any message","Qualquer mensagem"
 "Miscellaneous Feeds","Feeds Diversos"
 "Get Feed","Obter Feed"
 "RSS Feeds Section","Seção de Feeds RSS"
@@ -7628,11 +7629,13 @@ by,por
 "Please choose an action to add.","Por favor, escolha uma ação para adicionar."
 "Perform following actions","Executar a sequência de ações"
 "does not contain","não contém"
+"is undefined","é indefinido"
 ALL,TODOS
 ANY,QUALQUER
 TRUE,VERDADEIRO
 FALSE,FALSO
 "If %1 of these conditions are %2:","Se %1 destas condições forem %2:"
+"Invalid field","Campo inválido"
 "Unknown condition operator","Operador de condição desconhecido"
 "There is no information about associated entity type ""%1"".","Não existe nenhuma informação sobre o tipo de entidade associado ""%1""."
 "Credit Memos","Memorandos de Crédito"
@@ -7718,6 +7721,7 @@ Capture,Captura
 "Status Code","Código de status"
 "Status Label","Rótulo do status"
 "Store View Specific Labels","Etiquetas Específicas a Vistas de Loja"
+"Frontend Label","Etiqueta do Frontend"
 "Total Paid","Total pago"
 "Are you sure you want to send an order email to customer?","Tem certeza de que deseja enviar um e-mail de pedido para o cliente?"
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Será criado um reembolso off-line. Para criar um reembolso on-line, abra uma fatura e crie uma nota de crédito. Você deseja continuar?"
@@ -8442,6 +8446,7 @@ Successful,Sucesso
 "Something went wrong while saving the search query.","Algo deu errado ao gravar a query de pesquisa."
 "You already have an identical search term query.","Já tem uma query de pesquisa idêntica."
 "Your search query can't be longer than %1, so we shortened your query.","A sua query de pesquisa não pode ser superior a %1, por isso encurtámos a sua query."
+"--Please Select--","--Por Favor Selecione--"
 "Merge conflict with existing synonym group(s): %1","Resolver conflito com grupos de sinônimos existentes: %1"
 "Are you sure you want to delete synonym group with id: %1?","Deseja realmente excluir este grupo de sinônimos (id: %1)?"
 "    All Store Views","Todas as Visões de Loja"
@@ -8454,6 +8459,7 @@ Hits,Visitas
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Lista de sinónimos separada por vírgulas. Os termos inseridos (separados por vírgulas) serão usado numa query ""OR"" para pesquisar na loja inteira. Por exemplo, se você escrever ""sapatos, calçado"", e o utilizador procurar por ""sapatos"", os resultados da pesquisa incluirão qualquer produto ou conteúdo com os termos ""sapatos"" ou ""calçado"""
 Synonyms,Sinônimos
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Combina automaticamente os sinônimos em grupos que possuem o mesmo escopo. Se selecionar esta opção e adicionar um ou mais dos mesmos termos a diferente grupos de sinônimos do mesmo escopo, os mesmos serão combinados num único grupo. Se não for isto o que deseja, desmarque esta opção e um erro será mostrado ai tentar adicionar os mesmos termos."
+"Merge existing synonyms","Mesclar sinônimos existentes"
 "Are you sure you want to delete the selected synonym groups?","Tem a certeza que deseja excluir os grupos de sinônimos selecionados?"
 "Account Activity","Atividade da conta"
 "All other open sessions for this account were terminated.","Todas as outras sessões abertas para esta conta foram encerradas."
@@ -8464,6 +8470,7 @@ Synonyms,Sinônimos
 "By IP and Email","Por IP e E-mail"
 "By IP","Por IP"
 "By Email","Por E-mail"
+"Expiration Date","Data de expiração"
 "Incorrect Security Checker class. It has to implement SecurityCheckerInterface","Classe de verificador de segurança incorreto. Deve implementar SecurityCheckerInterface"
 """%1"" must be later than the current date.","""%1"" deve ser posterior à data atual."
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Esta conta de administrador está aberta em mais de uma localização. Outras localizações podem ser diferentes navegadores ou sessões no mesmo computador."
