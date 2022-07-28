@@ -4816,6 +4816,8 @@ hello,olá
 "Error filtering template: %s","Erro ao filtrar template: %s"
 "We're sorry, an error has occurred while generating this content.","Desculpe, houve um erro enquanto este conteúdo era gerado."
 "Invalid sender data","Dados do remetente inválido"
+"Unable to send mail. Please try again later.","Não foi possível enviar o e-mail. Por favor, tente novamente mais tarde."
+"Load Default Template","Carregar Template Padrão"
 Template,Tema
 "Are you sure you want to strip tags?","Tem certeza que deseja remover etiquetas?"
 "Are you sure you want to delete this template?","Você tem certeza que quer excluir este modelo?"
@@ -4823,6 +4825,7 @@ Template,Tema
 "Thank you, %store_name","Obrigado, %store_name"
 "No Templates Found","Nenhum modelo foi encontrado"
 "Template Type","Tipo de modelo"
+"To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Para otimizar o logotipo para telas de alta resolução, envie uma imagem 3x o tamanho normal e, em seguida, especifique 1x nas dimensões nos campos de largura/altura abaixo."
 "Logo Image","Imagem do logotipo"
 "Logo Image Alt","Alt da imagem do logotipo"
 "Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Necessário somente se uma imagem foi carregado acima. Digite o número de pixels, sem acrescentar ""px""."
@@ -4864,6 +4867,7 @@ Template,Tema
 "Switch/Solo/Maestro Only","Apenas Switch/Solo/Maestro"
 "Issue Number","Número de emissão"
 "The response type is incorrect. Verify the type and try again.","O tipo da resposta está incorreto. Verifique o tipo e tente novamente."
+"Can't convert a shipping cost from ""%1-%2"" for FedEx carrier.","Não é possível converter o custo de envio de ""%1-%2"" para a transportadora FedEx."
 "Europe First Priority","Primeira prioridade Europa"
 "1 Day Freight","Frete de 1 dia"
 "2 Day Freight","Frete de 2 dias"
@@ -4905,6 +4909,7 @@ Indirect,Indireto
 "For some reason we can't retrieve tracking info right now.","Por alguma razão não é possível recuperar informação de rastreamento agora."
 status,estado
 "Empty response","Nenhuma resposta"
+"Expected Delivery:","Entrega esperada:"
 "Account ID","ID da conta"
 "Please make sure to use only digits here. No dashes are allowed.","Por favor, certifique-se de usar apenas dígitos aqui. Nenhum traço é permitido."
 "Meter Number","Número do medidor"
@@ -4943,6 +4948,7 @@ Combined,Combinado
 "Please specify a sender name.","Por favor, especifique um nome de remetente."
 "Please specify a recipient email.","Por favor, especifique um e-mail de destinatário."
 "Please specify a sender email.","Por favor, especifique um e-mail do remetente."
+"Please enter a valid price range.","Por favor, insira um intervalo de preço válido."
 "Treat Balance as Store Credit","Tratar o Saldo como Crédito de Loja"
 "Lifetime (days)","Período (dias)"
 "Allow Message","Permitir mensagem"
@@ -4996,6 +5002,7 @@ History,Histórico
 "Please enable Store Credit to refund the gift card amount to your customer","Ative o crédito na loja para reembolsar o valor do cartão de presente para seu cliente"
 "Gift Card ""%1"" was added.","O cartão de presente ""%1"" foi adicionado."
 "We cannot apply this gift card.","Não podemos aplicar este cartão presente."
+"Invalid Request","Requisição Inválida"
 "Gift Card ""%1"" was removed.","O cartão de presente ""%1"" foi removido."
 "You can't remove this gift card.","Você não pode remover esse cartão presente."
 "Gift Card ""%1"" was redeemed.","O cartão de presente ""%1"" foi resgatado."
@@ -5023,6 +5030,8 @@ Expired,Expirado
 "We were unable to create full code pool size. Please check settings and try again.","Não conseguimos criar todo o conjunto de códigos. Por favor confira as definições e tente novamente."
 "No codes left in the pool.","Já não existem códigos disponíveis no conjunto."
 "You can't redeem a gift card now.","No momento, não é possível resgatar o cartão de presente."
+"Gift card not found","Cartão presente não encontrado"
+"Cannot find the customer to update balance","Não foi possível encontrar o cliente para atualizar o saldo"
 "Gift Card Redeemed: %1. For customer #%2.","Resgatado o cartão de presente: %1. Para cliente #%2."
 Alphabetical,Alfabética
 Numeric,Numérico
