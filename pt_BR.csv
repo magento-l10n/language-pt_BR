@@ -5007,6 +5007,8 @@ History,Histórico
 "You can't remove this gift card.","Você não pode remover esse cartão presente."
 "Gift Card ""%1"" was redeemed.","O cartão de presente ""%1"" foi resgatado."
 "We cannot redeem this gift card.","Não foi possível resgatar este cartão de presente."
+"Could not save the gift card account.","Não foi possível salvar a conta do cartão presente."
+"Could not delete the gift card account.","Não foi possível excluir a conta do cartão presente."
 "The expiration date must be set in the future.","A data de validade deve ser definida em uma data futura."
 "The balance cannot be less than zero.","O saldo não pode ser menor que zero."
 "This gift card account is already in the quote.","Esta conta de cartão de presente já esta sendo utilizada na cotação."
@@ -5033,6 +5035,7 @@ Expired,Expirado
 "Gift card not found","Cartão presente não encontrado"
 "Cannot find the customer to update balance","Não foi possível encontrar o cliente para atualizar o saldo"
 "Gift Card Redeemed: %1. For customer #%2.","Resgatado o cartão de presente: %1. Para cliente #%2."
+"The ""%1"" Cart doesn't contain products.","O carrinho ""%1"" não contém produtos."
 Alphabetical,Alfabética
 Numeric,Numérico
 "The maximum generated code length is 255. Please correct your settings.","O tamanho máximo de código gerado é 255. Por favor, corrija suas configurações."
@@ -5067,6 +5070,8 @@ Generate,Gerar
 "Gift Card:","Cartão Presente:"
 "See Balance","Ver Saldo"
 "Gift Card amount applied to order: ","Quantidade de cartão presente aplicada ao pedido:"
+"Gift Card %1 was removed.","O cartão presente %1 foi removido."
+"Gift Card %1 was added.","O cartão presente %1 foi adicionado."
 "Email Sent from Gift Card Account Management","E-mail enviado a partir do gerenciamento de contas de cartão de presente"
 "Gift Card Email Sender","Remetente do e-mail de cartão presente"
 "Gift Card Template","Modelo de cartão de presente"
@@ -5082,6 +5087,7 @@ Generate,Gerar
 "Low Code Pool Threshold","Limite Mínimo do Conjunto de Códigos"
 "IMPORTANT: Be sure to save your configuration before running generation process.","IMPORTANTE: Certifique-se de salvar sua configuração antes de executar o processo de geração."
 "Are you sure you want to delete these gift card accounts?","Você tem certeza que deseja excluir essas contas de cartão de presente?"
+"Gift messages can't be used for an empty cart. Add an item and try again.","Mensagens de presente não podem ser usadas para um pedido vazio. Crie um pedido, adicione um item e tente novamente."
 "Unknown entity type","Tipo de entidade desconhecida"
 "Test label","Etiqueta de teste"
 OK,CONFIRMAR
@@ -5731,6 +5737,7 @@ Invitations,Convites
 "Default Customer Group from System Configuration","Grupo de cliente padrão de Configuração do Sistema"
 "By Invitation Only","Só por convite"
 "Available to All","Disponível para todos"
+"The proper website couldn't be identified","O site apropriado não pôde ser identificado"
 "This invitation is not valid.","Este convite não é válido."
 "Please correct the invitation email.","Por favor corrija o e-mail de convite."
 "Invitation for same email address","Convite para o mesmo endereço de e-mail"
@@ -6963,6 +6970,16 @@ Installment,Parcela
 "Every 30 days","A cada 30 dias"
 "Every 40 days","A cada 40 dias"
 "No Logo","Sem Logo"
+White,Branco
+"White No Border","Branco, sem bordas"
+Gray,Cinza
+Monochrome,Monocromático
+Grayscale,"Escala de cinza"
+Left,"À esquerda"
+Right,"À direita"
+Top,Topo
+Primary,Primário
+Alternative,Alternativa
 "Yes (PayPal recommends this option)","Sim (PayPal recomenda esta opção)"
 "Created billing agreement #%1.","Foi criado o acordo de cobrança #%1."
 "We can't create a billing agreement for this order.","Não podemos criar um acordo de faturamento para este fim."
@@ -7327,7 +7344,6 @@ Duration:,Duração:
 "Wrong format of the entered option data","Formato errado dos dados da opção inserida"
 "Required fields are not present: sku, quantity","Campos obrigatórios não estão presentes: sku, quantidade"
 "Required fields are not present EnteredOption.uid, EnteredOption.value","Campos obrigatórios não estão presentes EnteredOption.uid, EnteredOption.value"
-"The ""%1"" Cart doesn't contain products.","O carrinho ""%1"" não contém produtos."
 "Cart isn't assigned to correct store","O carrinho não está atribuído à loja correta"
 "'The coupon code couldn't be applied: ' .","O código do cupom não pôde ser aplicado."
 "The coupon code couldn't be applied. Verify the coupon code and try again.","Não foi possível aplicar o código do cupom. Verifique o código do cupom e tente novamente."
@@ -8544,6 +8560,8 @@ Mixed,Misto
 "The order does not allow a shipment to be created.","O pedido não permite a criação de uma entrega."
 """Creditmemo Document Validation Error(s):\n"" .","""Erro(s) de Validação de documento de nota de crédito: \n""."
 "Could not save a Creditmemo, see error log for details","Não foi possível salvar nota de crédito, consulte o log de erros para obter detalhes"
+"Could not add the product with SKU ""%1"" to the shopping cart: %2","Não foi possível adicionar o produto com o SKU ""%1"" no carrinho de compras: %2"
+"Could not add the product with SKU ""%1"" to the shopping cart","Não foi possível adicionar o produto com o SKU ""%1"" no carrinho de compras"
 "We can't save the address:\n%1","Não é possível salvar o endereço:\n%1"
 "We don't have enough information to save the parent transaction ID.","Não temos informações suficientes para salvar a identificação de transação pai."
 "We cannot create an empty shipment.","Não é possível cadastrar uma entrega vazia."
@@ -9070,6 +9088,7 @@ Synonyms,Sinônimos
 "Are you sure that you want to log out all other sessions?","Tem a certeza que deseja sair de todas as outras sessões?"
 "Log out all other sessions","Finalizem todas as outras sessões"
 "This computer is using IP address %1.","Este computador está usando o IP endereço %1."
+Warning,Atenção
 ": You are about to set max session size in storefront to be lower than  recommended default session size. Low max session size in storefront could break storefront functionalities such as customer login. Are you sure you want to make this change?",": Você está prestes a definir o tamanho máximo de sessão na frente da loja para ser inferior ao tamanho de sessão padrão recomendado. O tamanho mínimo da sessão na vitrine pode quebrar as funcionalidades de vitrine como acesso ao cliente. Tem certeza que deseja fazer essa alteração?"
 "Admin Account Sharing","Partilha de Conta de Administrador"
 "If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.","Se definida como Sim, você pode logar de vários computadores em uma mesma conta. Configuração padrão Não melhora a segurança."
@@ -9653,7 +9672,6 @@ Method,Método
 Collapse,Minimizar
 Expand,Expandir
 " (no data)"," (sem Informação)"
-Top,Topo
 "No data","Sem Informação"
 "Support Data Collector","Coletor de Dados de Suporte"
 "Support System Report","Relatório de Sistema de Suporte"
@@ -9794,6 +9812,7 @@ Cross-sells,"Venda Cruzada"
 "Store(s) affected: ","Loja(s) afetada(s): "
 "Click on the link to <a href=""%1"">ignore this notification</a>","Clique no link para <a href=""%1"">ignorar esta notificação</a>"
 "Your current tax configuration may result in rounding errors. ","Aviso de configuração de impostos pode resultar em erros de arredondamento. "
+"Please see <a href=""%1"">documentation</a> for more details. ","Por favor, consulte <a href=""%1"">documentação</a> para mais detalhes. "
 "customer group","grupo de clientes"
 product,produto
 "Excl. tax:","Excl. Imposto:"
@@ -9984,6 +10003,7 @@ Translations,Traduções
 "Select from Gallery","Selecionar na Galeria"
 "Allowed file types","Tipos de arquivo permitidos"
 "Save View As...","Salvar Visão Como..."
+"Save all changes","Salvar todas as alterações"
 Columns,Colunas
 "All in Column","Todos na Coluna"
 "Save Edits","Salvar Edições"
@@ -10600,6 +10620,8 @@ Comment:,Comentar:
 "%1's Wishlist","Lista de Desejos de %1"
 "We can't specify a wish list item.","Não podemos especificar um item da lista de desejos."
 "The product is disabled","O produto está desabilitado"
+"Could not find a wishlist item with ID ""%id""","Não foi possível encontrar um item da lista com ID ""%id"""
+"We can't delete the item with ID ""%id"" from the Wish List right now.","Não podemos excluir o item com ID ""%id"" da sua Lista de Desejos no momento."
 error-message,mensagem-de-erro
 "Product Exception.","Exceção de produto (Product Exception)."
 "Share Wish List","Compartilhar Lista de Desejos"
@@ -10609,6 +10631,7 @@ error-message,mensagem-de-erro
 "View Product","Visualizar Produto"
 "This Wish List has no Items","Lista de Desejos não possui itens"
 "%1 has been added to your Wish List.","%1 foi adicionado à sua lista de desejos."
+"%1 has been removed from your Wish List.","%1 foi removido da sua lista de desejos."
 "RSS link to %1's wishlist","Link RSS para Lista de Desejos de %1"
 "RSS Feed","Feed RSS"
 "Wish List is empty now.","Lista de Desejos está vazia agora."
@@ -10682,7 +10705,6 @@ Captured,Capturado
 "For shipping to multiple family members and friends","Para enviar para vários familiares e amigos"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Se você tem perguntas sobre seu pedido, você pode nos enviar em <a href=""mailto:%store_email""> %store_email</a>."
 "Backup options","Opções de backup"
-Warning,Atenção
 "The widget %1 is no longer available. Select a different widget.","O widget %1 não está mais disponível. Selecione um widget diferente."
 "Recent items","Itens Recentes"
 "Show all...","Mostrar todos..."
