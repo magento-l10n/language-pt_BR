@@ -7426,8 +7426,21 @@ Carts,Carrinhos
 "Required parameter ""cart_item_id"" for ""cart_items"" is missing.","O parâmetro ""cart_item_id"" para ""cart_items"" é obrigatório."
 "Required parameter ""quantity"" for ""cart_items"" is missing.","O parâmetro ""quantity"" para ""cart_items"" é obrigatório."
 "Could not find cart item with id: %1.","Não foi possível encontrar o item do carrinho com id: %1."
+"It is impossible to log user action","É impossível registrar a ação do usuário"
+"An error occurred while logging process.","Ocorreu um erro ao registrar o processo."
 "Release Notification","Última Notificação"
 "Sorry, we had a problem loading our “What’s new” content.","Desculpe, tivemos um problema ao carregar o conteúdo ""O que há de novo""."
+"
+                        <p>We’ll try to show it again the next time you sign in to Magento Admin.</p>
+                        <p>To learn more about new features, see our latest Release Notes in
+                        <a href=""https://devdocs.magento.com/magento-release-information.html""
+                        target=""_blank"">DevDocs' Release Information</a>.
+                        </p>","
+                        <p>Tentaremos mostrar isto novamente da próxima vez que você entrar no Magento Admin.</p>
+                        <p>Para aprender mais sobre novos recursos, veja nossas últimas notas de lançamento em
+                        <a href=""https://devdocs.magento.com/magento-release-information.html""
+                        target=""_blank"">Informações de lançamento do DevDocs</a>.
+                        </p>"
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","Esta regra está atribuída a %1 lembrete(s) de regra automatizados. Excluir esta regra causa a desatribuição automaticamente."
 "Automated Email Marketing Reminder Rules","Regras de Lembrete de Marketing Automático por E-mail"
 "Are you sure you want to match this rule now?","Tem a certeza que pretende corresponder esta regra agora?"
@@ -7491,6 +7504,7 @@ quantity,quantidade
 "base price","preço base"
 "base cost","base de custo"
 "Item %1 %2 %3:","Artigo %1 %2 %3:"
+"The attribute specified is unknown. Verify the attribute and try again.","O atributo especificado é desconhecido. Verifique o atributo e tente novamente."
 "Items Subselection","Sub-seleção de Itens"
 "Coupon Code","Código do cupom"
 "Shopping cart %1 a coupon applied","O carrinho de compras %1 um cupom aplicado"
@@ -7515,6 +7529,8 @@ is,é
 "The item was added to wish list %1, store view %2.","O item foi adicionado à lista de desejos %1, vista de loja %2."
 "If an item is %1 in the wish list and %2 of these conditions match:","Se um item estiver %1 na lista de desejos e %2 destas condições sejam verdadeiras:"
 "Condition type is unexpected","O tipo de condição não é o esperado"
+"The valid number of minutes needs to be entered. Enter and try again.","É necessário inserir um número válido de minutos. Insira e tente novamente."
+"The Cron expression was unable to be saved.","A expressão do Cron não pôde ser salva."
 "<b>Important</b>: If you select ""Use Auto Generation"", this rule will no longer be used in any automated email reminder rules for abandoned carts","<b>Importante</b>: Se selecionar ""Usar Geração Automática"", esta regra deixará de ser usada em qualquer lembrete de e-mail automático para carrinhos de compras abandonados"
 "Validate error 1","Erro de validação 1"
 "Validate error 2","Erro de validação 2"
@@ -7649,6 +7665,8 @@ Refunds,Reembolsos
 "Current Month Starts","Começa do mês atual"
 "Select day of the month.","Selecione o dia do mês."
 "Enable Reports","Habilitar Relatórios"
+"Enable ""Share WishList"" Report","Ativar Relatório ""Compartilhar Lista de Desejos"""
+"If enabled, will collect statistic of shared WishLists","Se ativado, irá coletar estatísticas de produtos adicionados a Lista de Desejos"
 "Stock Quantity","Quantidade da estoque"
 "Ordered Quantity","Quantidade Encomendada"
 "The report displays the top 5 most viewed products for each interval.","O relatório exibe os primeiros 5 produtos mais vistos para cada intervalo."
