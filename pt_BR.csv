@@ -4817,6 +4817,7 @@ hello,olá
 "We're sorry, an error has occurred while generating this content.","Desculpe, houve um erro enquanto este conteúdo era gerado."
 "Invalid sender data","Dados do remetente inválido"
 "Unable to send mail. Please try again later.","Não foi possível enviar o e-mail. Por favor, tente novamente mais tarde."
+expectedResult,resultadoEsperado
 "Load Default Template","Carregar Template Padrão"
 Template,Tema
 "Are you sure you want to strip tags?","Tem certeza que deseja remover etiquetas?"
@@ -6674,6 +6675,7 @@ Instructions,Instruções
 "Please enter a valid credit card verification number.","Por favor, insira um número de verificação de cartão de crédito válido."
 "Please enter a valid credit card expiration date.","Por favor, introduza uma data de expiração do cartão de crédito válida."
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 classe não implementa \Magento\Payment\Model\MethodInterface"
+"Please provide payment for the order.","Por favor, forneça um meio de pagamento para o pedido."
 "Failure #1","Falha #1"
 "Failure #2","Falha #2"
 "Payment method","Método de pagamento"
@@ -6685,9 +6687,12 @@ Instructions,Instruções
 "Incorrect credit card expiration year.","Ano de expiração do cartão de crédito inválido."
 "Payment Methods Section","Secção de Métodos de Pagamento"
 "Payment Services","Serviços de Pagamento"
+"Zero Subtotal Checkout","Checkout com Subtotal Zero"
 "New Order Status","Status de Novo Pedido"
 "Automatically Invoice All Items","Faturar automaticamente todos os itens"
 "Sort Order","Ordem de classificação"
+"Payment from Applicable Countries","Pagamento de países aplicáveis"
+"Payment from Specific Countries","Pagamento de Países Específicos"
 "Billing Agreements","Acordos de Faturamento"
 "Reference ID","ID de referência"
 "Billing Agreement #%1","Termos de Serviço de Faturamento #%1"
