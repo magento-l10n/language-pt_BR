@@ -3,6 +3,7 @@ None,Nenhum
 "Allowed Scopes","Escopos Permitidos"
 "You need more permissions to apply some of the rule updates.","Você precisa de mais permissões para aplicar algumas das atualizações de regras."
 "You need more permissions to access website ""%1"".","Você precisa ter mais permissões para acessar o website ""%1""."
+"You need more permissions to save this setting.","Você precisa de mais permissões para salvar essa configuração."
 "Role Scopes","Escopos da Regra"
 Custom,Personalizado
 "More permissions are needed to delete the ""%1"" item.","Mais permissões são necessárias para excluir o item ""%1""."
@@ -103,6 +104,7 @@ Configure,Configurar
 "You must buy at least %1 of these per purchase.","Você deve adquirir ao menos %1 unidades por compra."
 "Specify the product's options.","Especifique as opções do produto."
 "Alert me when this item is available.","Avise-me quando este item estiver disponível."
+"We can't find this customer.","Nós não podemos encontrar esse cliente."
 "Shopping cart management is disabled for this customer.","Gestão de carrinho de compras está desabilitado para este cliente."
 Customers,Clientes
 "Shopping Cart","Carrinho de Compras"
