@@ -10355,6 +10355,7 @@ Warning,Atenção
 "Please wait...","Por favor, aguarde..."
 "All ","Todos "
 Translate,Traduzir
+"Please enter a valid time, between 00:00 and 23:59","Por favor, insira uma hora válida, entre as 00:00 e as 23:59"
 "Please remove invalid characters: {0}.","Por favor remover caracteres inválidos: {0}."
 "Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Por favor use apenas letras (a-z), números (0-9) ou underscore (_) neste campo, e o primeiro carácter deve ser uma letra."
 "Please select one of the options above.","Por favor, selecione uma das opções acima."
